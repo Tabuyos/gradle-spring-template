@@ -5,7 +5,7 @@ def junitJupiterVersion = "5.7.0"
 def springCloudVersion = "2020.0.2"
 def springBootVersion = "2.4.4"
 def removeParentSrc = true
-def supportParentChildModule = true
+def supportParentChildModule = false
 
 static def deleteDirectory(File file) {
   if (file.isFile()) {
